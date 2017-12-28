@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package pb;
+
+message Keepalive{
+
+}
+
+
+
+message Ping {
+    string msg = 1;
+}
+
+message Pong{
+    string msg = 1;
+}

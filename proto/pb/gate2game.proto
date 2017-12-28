@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "common.proto";
+
+package pb;
+
+service PingPong {
+    rpc Greet (Ping) returns (Pong) {}
+}
+

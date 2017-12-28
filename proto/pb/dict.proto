@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package pb;
+
+message Head {
+    int32 id = 1;
+    
+}
