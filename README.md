@@ -1,3 +1,5 @@
-# 基础游戏服务器结构
+# A simple game server structure
 
-客户端只连接网关，由网关转发请求
+- client only dial to gateway, gateway forward request to game server.
+- use protocol buffer for communication
+- also use grpc betwwen servers
